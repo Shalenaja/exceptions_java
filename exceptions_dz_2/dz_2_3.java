@@ -22,4 +22,13 @@ public class dz_2_3 {
     public static void printSum(Integer a, Integer b) {         //throws FileNotFoundException не требуется
         System.out.println(a + b);
     } 
+    
+    // или метод printSum дополнить исключением:
+     public static void printSum(Integer a, Integer b)  throws NullPointerException {
+    if (a == null || b == null) {
+        NullPointerException e = new NullPointerException();
+        throw e;
+    }
+     System.out.println(a + b);
+ } 
 }
