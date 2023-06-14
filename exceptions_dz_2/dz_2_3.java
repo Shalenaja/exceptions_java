@@ -18,10 +18,10 @@ public class dz_2_3 {
         } catch (Throwable ex) {                                 // исключение переставлено вниз (по приоритетности)
             System.out.println("Что-то пошло не так...");
         }
-    }
-    public static void printSum(Integer a, Integer b) {         //throws FileNotFoundException не требуется
-        System.out.println(a + b);
-    } 
+     }
+    // public static void printSum(Integer a, Integer b) {         //throws FileNotFoundException не требуется
+    //     System.out.println(a + b);
+    // } 
     
     // или метод printSum дополнить исключением:
      public static void printSum(Integer a, Integer b)  throws NullPointerException {
